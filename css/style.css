@@ -42,6 +42,9 @@ header{
 #hero.iphone{
 	background-image: url("../img/iphone-big.jpg");
 }
+#hero.contact{
+	background-image: url("../img/Rectangle-12-Copy.jpg");
+}
 
 #hero h1{
 	font-size: 60px;
@@ -173,17 +176,51 @@ footer{
 	height: 100%;
 }
 
+.bg-primary{
+	background-color: var(--color-primary) !important;
+}
 
+#contact{
+	color: #fff;
+	text-align: center;
+	margin-top: -80px;
+}
 
+#contact h3{
+	font-size: 18px;
+}
 
+#contact i{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	background-color: rgba(255,255,255,0.10);
+	border-radius: 100%;
+	margin-bottom: 20px;
+	font-size: 22px;
+}
 
+#contact .padding-section{
+	padding: 50px 0;
+}
 
+#form-contact input{
+	background-color: #e8e8e8;
+	border-radius: 0;
+	padding: 15px;
+}
+#form-contact textarea{
+	background-color: #e8e8e8;
+	border-radius: 0;
+	padding: 15px;
+}
 
-
-
-
-
-
+#form-contact input::placeholder{
+	color: #a2a2a2;
+}
+#form-contact textarea::placeholder{
+	color: #a2a2a2;
+}
 
 
 
